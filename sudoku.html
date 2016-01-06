@@ -113,7 +113,8 @@
         $.ajax({
         url: "http://104.131.17.187:4004/sudoku",
         success: function(resp, text, xhr){
-        for (var r = 0; r < 9; r++){
+            console.log(resp);
+            for (var r = 0; r < 9; r++){
             for (var c = 0; c < 9; c++){
                 var cellid = "#r"+r+"c"+c;
                 if (resp[r][c] != ""){
