@@ -126,7 +126,7 @@
         $("#validate-button").click(function() {
             var userBoard = loadUserBoard();
             var sudoku = new Sudoku(userBoard);
-            alert("Sudoku validation result: "sudoku.isValid());
+            alert("Sudoku validation result: "+sudoku.isValid());
         })
         
         function loadUserBoard(){

@@ -1,0 +1,46 @@
+*{
+    font-family: "Impact";
+}
+
+input[type="text"], td{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+table{
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.btn{
+    width:200px;
+    margin: 10px auto;
+    text-align: center;
+    background: #bfe5ff;
+    background-image: -webkit-linear-gradient(top, #bfe5ff, #3fb4fc);
+    background-image: -moz-linear-gradient(top, #bfe5ff, #3fb4fc);
+    background-image: -ms-linear-gradient(top, #bfe5ff, #3fb4fc);
+    background-image: -o-linear-gradient(top, #bfe5ff, #3fb4fc);
+    background-image: linear-gradient(to bottom, #bfe5ff, #3fb4fc);
+    -webkit-border-radius: 23;
+    -moz-border-radius: 23;
+    border-radius: 23;
+    text-shadow: 1px 1px 3 px #666666;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 30px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
